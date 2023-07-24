@@ -1,0 +1,235 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+    background-color: #252529;
+}
+header{
+    height: 40px;
+    background-color:#333;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+#h1{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 50px;
+    
+}
+#h1>a{
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    font-weight: lighter;
+    font-size: 15px;
+    
+}
+#h1>a:hover{
+    background-color: rgb(66, 66, 66);
+}
+.h2{
+
+    height: 100vh;
+}
+#h2{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#h2>h1{
+    font-size:60px;
+    position: absolute;
+    top: 160px;
+}
+#h2>h2{
+    font-size: 2rem;
+    font-weight: 25px;
+    word-spacing: -5px;
+}
+#h2>h3{
+    font-weight: 400;
+    width: 1150px;
+    line-height: 30px;
+}
+#h3{
+    padding-top: 50px;
+    background-color: #252529;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    height: auto;
+}
+#h3>h1{
+    font-size: 2.5rem;
+}
+#h3>h1>i{
+    margin-right: 10px;
+}
+#h3>h2{
+    font-size: 2rem;
+    font-weight: 600;
+    word-spacing: -5px;
+}
+#h3>h3{
+    font-weight: 400;
+    width: 1120px;
+    line-height: 30px;
+    text-align: center;
+}
+#h3>button>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+}
+#h3>button{
+    background-color: #b90415;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#h3>img{
+    padding-bottom: 30px;
+}
+#h4{
+    padding-top: 50px;
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#h4>h1{
+    font-weight: 600;
+    width: 1000px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+#h4>h3{
+    font-weight: 500;
+    width: 1150px;
+    line-height: 30px;
+    text-align: center;
+}
+#h4>button>a{
+    text-decoration: none;
+    color: #fff;
+}
+#h4>button{
+    background-color: #103063;
+    border: none;
+    padding: 20px;
+}
+#h4>img{
+    padding-bottom: 40px;
+}
+#h5
+{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    height: 70vh;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    justify-content: center;
+}
+#h5>h4{
+    font-weight: 500;
+    width: 1150px;
+    line-height: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+#h6{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    color: #333;
+}
+#h6 h1{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+#h6 div>:nth-child(2){
+    font-weight: 400;
+    width: 600px;
+    line-height: 30px;
+}
+#h6 div>:nth-child(3){
+    padding-bottom: 20px;
+}
+#h6 div>:nth-child(4)>i{
+    padding-right:5px;
+}
+#h6>img{
+    height: 400px;
+    width: 600px;
+    
+}
+#h6>div{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+#h6>div>a::before{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 1px;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+#h7{
+    padding-top:50px;
+    padding-left: 150px;
+    padding-right: 100px;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+#h7 h3::after{
+    content: "";
+    display: block;
+    width: 250px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#h7>div{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+#h7>div>a{
+    text-decoration: none;
+    color:  #ccc;
+}
+footer>#s2{
+    height: 60px;
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+    
+}
+
